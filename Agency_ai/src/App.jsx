@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+
+import Navbar from "./components/navbar";
 
 const App = () => {
+  const [theme, setTheme] = useState("light");
   return (
-    <h1 className="text-3xl underline text-black text-center ">
-      My First React Js Project
-    </h1>
+    <div className="dark:bg-black relative">
+      <Navbar theme={theme} setTheme={setTheme} />
+    </div>
   );
 };
 
