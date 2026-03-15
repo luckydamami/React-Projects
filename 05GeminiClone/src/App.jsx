@@ -1,9 +1,11 @@
 import "./App.css";
+import "./components/Sidebar/Sidebar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     <>
-      <h1>Gemini Clone Project in React Js</h1>
+      <Sidebar />
     </>
   );
 }
