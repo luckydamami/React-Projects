@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./Sidebar.css";
 import { assets } from "../../assets/assets";
+import "./Sidebar.css";
 
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);
