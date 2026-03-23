@@ -8,7 +8,8 @@ const ContextProvider = (props) => {
     await run(prompt);
   };
 
-  onSent("What is Nodejs");
+  onSent("What is react js!");
+
   const contextValue = {};
   return (
     <Context.Provider value={contextValue}>{props.children}</Context.Provider>
